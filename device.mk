@@ -672,3 +672,6 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_PROPERTY_OVERRIDES += \
       persist.vendor.usb.usbradio.config=diag
 endif
+
+PRODUCT_PROPERTY_OVERRIDES += \
+      media.recorder.show_manufacturer_and_model=true
