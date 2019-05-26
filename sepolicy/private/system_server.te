@@ -1,1 +1,4 @@
 binder_call(system_server, folio_daemon)
+
+# Smart Charging
+allow system_server sysfs_batteryinfo:file { getattr open write };
